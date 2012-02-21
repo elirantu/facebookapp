@@ -1,0 +1,10 @@
+development: &defaults
+  client_id: 345907068783446
+  client_secret: 7d0f2285d80f3912d165348d6ba01222
+  scope: user_about_me,user_activities,user_birthday,user_education_history,
+         user_events,user_groups,user_hometown,user_interests,user_likes
+  canvas_url: http://apps.facebook.com/UserBookmarks/
+test:
+  <<: *defaults
+production:
+  <<: *defaults
